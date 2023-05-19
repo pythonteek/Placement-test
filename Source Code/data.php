@@ -23,22 +23,22 @@
     $q = $question->get_test_question(1);
     
     /*
+    i(th) question:
+    $q[i][0] --> id
+    $q[i][1] --> exam_id
+    $q[i][2] --> question
+    $q[i][3] --> answer
+    $q[i][4] --> code: Some questions may contain several lines of code
+    $q[i][5] --> image path: The question may have an image
     
-    $q[0] --> id
-    $q[1] --> exam_id
-    $q[2] --> question
-    $q[3] --> answer
-    $q[4] --> code: Some questions may contain several lines of code
-    $q[5] --> image path: The question may have an image
+    $q[i][6] --> op1
+    $q[i][7] --> op2
+    $q[i][8] --> op3
+    $q[i][9] --> op4
     
-    $q[6] --> op1
-    $q[7] --> op2
-    $q[8] --> op3
-    $q[9] --> op4
-    
-    $q[10] --> lable: Hard, Easy, etc...
-    $q[11] --> tag: python, functions, variable, etc...
-    $q[12] --> score
+    $q[i][10] --> lable: Hard, Easy, etc...
+    $q[i][11] --> tag: python, functions, variable, etc...
+    $q[i][12] --> score
     
     */
     
